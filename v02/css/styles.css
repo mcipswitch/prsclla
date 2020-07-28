@@ -91,7 +91,12 @@ img {
   filter: saturate(90%);
 }
 
+figure {
+  display: block;
+}
+
 figcaption {
+  display: block;
   font-size: 0.8rem;
   text-align: center;
   font-style: italic;
