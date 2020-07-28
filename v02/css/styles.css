@@ -92,6 +92,7 @@ img {
 }
 
 figcaption {
+  font-size: 0.8rem;
   text-align: center;
   font-style: italic;
   margin-bottom: 10%;
@@ -100,6 +101,7 @@ figcaption {
 .small {
   filter: saturate(20%);
   display: block;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
