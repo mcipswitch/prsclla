@@ -1,0 +1,264 @@
+/* Install Fonts */
+@font-face {
+  font-family: 'HK Grotesk Regular';
+  src: url('fonts/HKGrotesk-Regular.eot');
+  /* IE9+ Compat Modes */
+  src: url('fonts/HKGrotesk-Regular.otf') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('fonts/HKGrotesk-Regular.woff2') format('woff2'),
+    /* Super modern browsers */
+    url('fonts/HKGrotesk-Regular.woff') format('woff'),
+    /* Modern browsers */
+    url('fonts/HKGrotesk-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  /* url('webfont.svg#FontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'HK Grotesk Bold';
+  src: url('fonts/HKGrotesk-Bold.eot');
+  /* IE9+ Compat Modes */
+  src: url('fonts/HKGrotesk-Bold.otf') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('fonts/HKGrotesk-Bold.woff2') format('woff2'),
+    /* Super modern browsers */
+    url('fonts/HKGrotesk-Bold.woff') format('woff'),
+    /* Modern browsers */
+    url('fonts/HKGrotesk-Bold.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  /* url('webfont.svg#FontName') format('svg'); /* Legacy iOS */
+}
+
+/* Body */
+body {
+  background-color: #E3E3E3;
+  font-family: 'HK Grotesk Regular', sans-serif;
+  /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: 'Courier Prime', monospace; */
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 80px 15%;
+}
+
+h1 {
+  font-family: 'HK Grotesk Bold', sans-serif;
+  font-size: 2rem;
+}
+h2 {
+  font-family: 'HK Grotesk Bold', sans-serif;
+  font-size: 1.5rem;
+}
+h3 {
+  font-family: 'HK Grotesk Regular', sans-serif;
+  font-size: 1.3rem;
+}
+h4 {
+  font-family: 'HK Grotesk Regular', sans-serif;
+  font-size: 1.2rem;
+}
+
+::-moz-selection, ::selection {
+  background-color: #C0C0C0;
+}
+
+/* Hover Animation */
+.animate-in {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.highlight-animate-off {
+  background-image: linear-gradient(to right, #DB3E00 50%, transparent 50%);
+  background-size: 200%;
+  color: #272727;
+  display: inline;
+  padding: 0.1rem 0 0.1rem;
+  /* Animation */
+  -webkit-transition: all 500ms cubic-bezier(0.300, 0.055, 0.235, 0.970);
+  -moz-transition: all 500ms cubic-bezier(0.300, 0.055, 0.235, 0.970);
+  -o-transition: all 500ms cubic-bezier(0.300, 0.055, 0.235, 0.970);
+  transition: all 500ms cubic-bezier(0.300, 0.055, 0.235, 0.970);
+  /* Needs prefixing */
+  /* box-decoration-break: clone;
+  -webkit-box-decoration-break: clone; */
+}
+
+img {
+  margin-bottom: 10%;
+  filter: saturate(90%);
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10%;
+}
+
+.small {
+  filter: saturate(20%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+/* Video Wrapper */
+.videoWrapper {
+  height: 0;
+  position: relative;
+  /* falls back to 16/9, but otherwise uses ratio from HTML */
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar */
+.navbar {
+  letter-spacing: 0.08rem;
+  padding: 0;
+}
+
+.navbar-brand {
+  color: #272727;
+  margin-right: 5%;
+  padding: 0;
+}
+
+.nav-item {
+  color: #272727;
+  margin-right: 20px;
+  padding: 2px 0 !important;
+}
+
+.nav-item:hover {
+  color: #DB3E00;
+  text-decoration: none;
+}
+
+.active {
+  font-family: 'HK Grotesk Bold', sans-serif;
+}
+
+/* Navbar Collapse Toggler */
+.navbar-toggler {
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  font-size: 0.9rem;
+}
+
+.navbar.navbar-4 .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=DB3E00');
+}
+
+/* Main Section */
+.main-box {
+  max-width: 480px;
+  max-height: 100%;
+}
+
+.main-content {
+  margin: 15% 0 15%;
+}
+
+.main-content a {
+  border-bottom: 1px solid #DB3E00;
+  color: #272727;
+}
+
+.main-content a:hover, .main-content a:focus, .main-content a:active {
+  /* background-position: -100%; */
+  color: #DB3E00;
+  text-decoration: none;
+}
+
+/* Mailchimp Signup Form */
+#mc_embed_signup {
+  margin-top: 10%;
+  width: 100%;
+}
+
+input[type="email"] {
+  background-color: transparent;
+  border: 1px solid #D0D0D0;
+  padding: 10px 18px;
+  max-width: 100%;
+}
+
+::placeholder {
+  color: #272727;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid #D0D0D0;
+  padding: 10px 18px;
+  max-width: 100%;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  border: 1px solid #DB3E00;
+  color: #DB3E00;
+}
+
+/* Footer Section */
+.page-footer {
+  color: #272727;
+  font-size: 1em;
+  margin: 0 0 20%;
+  padding: 0 !important;
+}
+
+.page-footer a {
+  color: #272727;
+}
+
+.icons {
+  margin-right: 20px;
+}
+
+.icons:hover, .icons:focus, .icons:active {
+  color: #DB3E00;
+}
+
+/* Responsive Breakpoints */
+/* Extra small devices (portrait phones, less than 576px)  */
+@media (max-width: 767.98px) {
+  body {
+    padding: 15px;
+  }
+}
+
+@media(prefers-color-scheme:dark) {
+
+  html,
+  body {
+    background: #272727;
+    color: #F8F8F8;
+  }
+
+  input {
+    color: #F8F8F8;
+  }
+
+  .navbar-brand {
+    filter: invert(100%);
+    margin-bottom: 0;
+  }
+
+  .main-content a, .nav-item, .page-footer a {
+    color: #F8F8F8;
+  }
+}
