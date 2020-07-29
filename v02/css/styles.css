@@ -105,10 +105,9 @@ figcaption {
 
 .small {
   filter: saturate(20%);
-  display: block;
-  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2%;
 }
 
 /* Video Wrapper */
