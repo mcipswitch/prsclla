@@ -29,6 +29,11 @@
   /* url('webfont.svg#FontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+  font-family: 'Overpass Mono Light';
+  src: url('fonts/OverpassMono-Light.ttf') format('truetype');
+}
+
 /* Body */
 body {
   background-color: #E3E3E3;
@@ -55,9 +60,8 @@ h4 {
   font-size: 1.2rem;
 }
 h6 {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Overpass Mono Light', monospace;
   font-size: 0.8rem;
-  font-weight: 300;
 }
 
 ::-moz-selection, ::selection {
