@@ -33,8 +33,6 @@
 body {
   background-color: #E3E3E3;
   font-family: 'HK Grotesk Regular', sans-serif;
-  /* font-family: 'Roboto Mono', monospace; */
-  /* font-family: 'Courier Prime', monospace; */
   font-size: 1rem;
   line-height: 1.5rem;
   padding: 80px 15%;
@@ -55,6 +53,11 @@ h3 {
 h4 {
   font-family: 'HK Grotesk Regular', sans-serif;
   font-size: 1.2rem;
+}
+h6 {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 300;
 }
 
 ::-moz-selection, ::selection {
@@ -90,18 +93,6 @@ img {
   margin-bottom: 10%;
   filter: saturate(90%);
 }
-
-/* figure {
-  display: block;
-}
-
-figcaption {
-  display: block;
-  font-size: 0.8rem;
-  text-align: center;
-  font-style: italic;
-  margin-bottom: 10%;
-} */
 
 .small {
   filter: saturate(20%);
