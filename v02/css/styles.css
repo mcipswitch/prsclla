@@ -78,7 +78,7 @@ h6 {
 }
 
 .highlight-animate-off {
-  background-image: linear-gradient(to right, #DB3E00 50%, transparent 50%);
+  background-image: linear-gradient(to right, #FB7AA8 50%, transparent 50%);
   background-size: 200%;
   color: #272727;
   display: inline;
@@ -140,7 +140,8 @@ img {
 }
 
 .nav-item:hover {
-  color: #DB3E00;
+  /* color: #DB3E00; */
+  color: #FB7AA8;
   text-decoration: none;
 }
 
@@ -158,7 +159,7 @@ img {
 }
 
 .navbar.navbar-4 .navbar-toggler-icon {
-  background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=DB3E00');
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=FB7AA8');
 }
 
 /* Main Section */
@@ -172,13 +173,13 @@ img {
 }
 
 .main-content a {
-  border-bottom: 1px solid #DB3E00;
+  border-bottom: 1px solid #FB7AA8;
   color: #272727;
 }
 
 .main-content a:hover, .main-content a:focus, .main-content a:active {
   /* background-position: -100%; */
-  color: #DB3E00;
+  color: #FB7AA8;
   text-decoration: none;
 }
 
@@ -209,8 +210,8 @@ input[type="submit"] {
 input[type="submit"]:hover,
 input[type="submit"]:focus,
 input[type="submit"]:active {
-  border: 1px solid #DB3E00;
-  color: #DB3E00;
+  border: 1px solid #FB7AA8;
+  color: #FB7AA8;
 }
 
 /* Footer Section */
@@ -230,7 +231,7 @@ input[type="submit"]:active {
 }
 
 .icons:hover, .icons:focus, .icons:active {
-  color: #DB3E00;
+  color: #FB7AA8;
 }
 
 /* Responsive Breakpoints */
