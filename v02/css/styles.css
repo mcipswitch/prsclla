@@ -61,7 +61,7 @@ h4 {
 }
 h6 {
   font-family: 'Overpass Mono Light', monospace;
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
 }
 
 ::-moz-selection, ::selection {
