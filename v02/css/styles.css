@@ -29,26 +29,13 @@
   /* url('webfont.svg#FontName') format('svg'); /* Legacy iOS */
 }
 
-@font-face {
-  font-family: 'Overpass Mono Light';
-  src: url('fonts/OverpassMono-Light.ttf') format('truetype');
-}
-
 /* Body */
 body {
   background-color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.7rem;
+  font-family: 'HK Grotesk Regular', sans-serif;
+  font-size: 1rem;
   line-height: 1.5rem;
   padding: 80px 15%;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.7rem;
-  line-height: 1.5rem;
-  font-weight: 700;
 }
 
 ::-moz-selection, ::selection {
@@ -115,14 +102,12 @@ h1 {
 }
 
 .nav-item:hover {
-  /* color: #DB3E00; */
   color: #FB7AA8;
   text-decoration: none;
 }
 
 .active {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'HK Grotesk Bold', sans-serif;
 }
 
 /* Navbar Collapse Toggler */
@@ -149,8 +134,7 @@ h1 {
 }
 
 .main-content a {
-  /* border-bottom: 1px solid #FB7AA8; */
-  border-bottom: 1px solid #272727;
+  border-bottom: 1px solid #FB7AA8;
   color: #272727;
 }
 
@@ -219,7 +203,7 @@ input[type="submit"]:active {
   }
 }
 
-/* @media(prefers-color-scheme:dark) {
+@media(prefers-color-scheme:dark) {
 
   html,
   body {
@@ -239,4 +223,4 @@ input[type="submit"]:active {
   .main-content a, .nav-item, .page-footer a {
     color: #F8F8F8;
   }
-} */
+}
