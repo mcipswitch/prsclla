@@ -36,32 +36,19 @@
 
 /* Body */
 body {
-  background-color: #E3E3E3;
-  font-family: 'HK Grotesk Regular', sans-serif;
-  font-size: 1rem;
+  background-color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
   line-height: 1.5rem;
   padding: 80px 15%;
+  text-transform: uppercase;
 }
 
 h1 {
-  font-family: 'HK Grotesk Bold', sans-serif;
-  font-size: 2rem;
-}
-h2 {
-  font-family: 'HK Grotesk Bold', sans-serif;
-  font-size: 1.5rem;
-}
-h3 {
-  font-family: 'HK Grotesk Regular', sans-serif;
-  font-size: 1.3rem;
-}
-h4 {
-  font-family: 'HK Grotesk Regular', sans-serif;
-  font-size: 1.2rem;
-}
-h6 {
-  font-family: 'Overpass Mono Light', monospace;
-  /* font-size: 0.8rem; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  font-weight: 700;
 }
 
 ::-moz-selection, ::selection {
@@ -91,18 +78,6 @@ h6 {
   /* Needs prefixing */
   /* box-decoration-break: clone;
   -webkit-box-decoration-break: clone; */
-}
-
-img {
-  margin-bottom: 10%;
-  filter: saturate(90%);
-}
-
-.small {
-  filter: saturate(20%);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
 }
 
 /* Video Wrapper */
@@ -146,7 +121,8 @@ img {
 }
 
 .active {
-  font-family: 'HK Grotesk Bold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 /* Navbar Collapse Toggler */
@@ -173,7 +149,8 @@ img {
 }
 
 .main-content a {
-  border-bottom: 1px solid #FB7AA8;
+  /* border-bottom: 1px solid #FB7AA8; */
+  border-bottom: 1px solid #272727;
   color: #272727;
 }
 
@@ -242,7 +219,7 @@ input[type="submit"]:active {
   }
 }
 
-@media(prefers-color-scheme:dark) {
+/* @media(prefers-color-scheme:dark) {
 
   html,
   body {
@@ -262,4 +239,4 @@ input[type="submit"]:active {
   .main-content a, .nav-item, .page-footer a {
     color: #F8F8F8;
   }
-}
+} */
